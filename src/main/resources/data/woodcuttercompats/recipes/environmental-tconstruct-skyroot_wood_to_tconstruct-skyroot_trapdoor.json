@@ -1,0 +1,14 @@
+{
+    "type": "environmental:sawing",
+    "ingredient": {
+        "item": "tconstruct:skyroot_wood"
+    },
+    "result": "tconstruct:skyroot_trapdoor",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tconstruct"
+        }
+    ]
+}

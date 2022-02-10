@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "byg:witch_hazel_wood"
+    },
+    "result": "byg:stripped_witch_hazel_bark",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

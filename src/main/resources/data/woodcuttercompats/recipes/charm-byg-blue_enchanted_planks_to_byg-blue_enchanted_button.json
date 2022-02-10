@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "byg:blue_enchanted_planks"
+    },
+    "result": "byg:blue_enchanted_button",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

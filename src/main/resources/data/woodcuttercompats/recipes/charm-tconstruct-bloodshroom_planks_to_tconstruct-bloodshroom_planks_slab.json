@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "tconstruct:bloodshroom_planks"
+    },
+    "result": "tconstruct:bloodshroom_planks_slab",
+    "count": 2,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tconstruct"
+        }
+    ]
+}

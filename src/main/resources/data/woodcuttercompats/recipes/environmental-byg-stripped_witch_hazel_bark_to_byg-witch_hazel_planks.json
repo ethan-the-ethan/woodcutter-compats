@@ -1,0 +1,14 @@
+{
+    "type": "environmental:sawing",
+    "ingredient": {
+        "item": "byg:stripped_witch_hazel_bark"
+    },
+    "result": "byg:witch_hazel_planks",
+    "count": 4,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

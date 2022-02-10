@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "byg:baobab_wood"
+    },
+    "result": "byg:baobab_planks",
+    "count": 4,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

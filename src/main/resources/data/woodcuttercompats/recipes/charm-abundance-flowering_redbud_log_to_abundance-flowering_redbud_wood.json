@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "abundance:flowering_redbud_log"
+    },
+    "result": "abundance:flowering_redbud_wood",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "abundance"
+        }
+    ]
+}

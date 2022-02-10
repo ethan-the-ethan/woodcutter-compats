@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "autumnity:maple_log"
+    },
+    "result": "autumnity:stripped_maple_log",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "autumnity"
+        }
+    ]
+}

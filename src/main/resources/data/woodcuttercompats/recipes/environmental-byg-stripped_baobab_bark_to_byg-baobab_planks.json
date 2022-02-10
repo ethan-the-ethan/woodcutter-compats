@@ -1,0 +1,14 @@
+{
+    "type": "environmental:sawing",
+    "ingredient": {
+        "item": "byg:stripped_baobab_bark"
+    },
+    "result": "byg:baobab_planks",
+    "count": 4,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

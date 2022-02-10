@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "atmospheric:yucca_log"
+    },
+    "result": "atmospheric:yucca_planks",
+    "count": 4,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ]
+}

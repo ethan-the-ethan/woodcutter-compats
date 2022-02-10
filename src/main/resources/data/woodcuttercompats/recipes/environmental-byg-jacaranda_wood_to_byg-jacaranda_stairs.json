@@ -1,0 +1,14 @@
+{
+    "type": "environmental:sawing",
+    "ingredient": {
+        "item": "byg:jacaranda_wood"
+    },
+    "result": "byg:jacaranda_stairs",
+    "count": 4,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

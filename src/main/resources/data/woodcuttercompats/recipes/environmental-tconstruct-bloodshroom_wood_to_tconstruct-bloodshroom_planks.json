@@ -1,0 +1,14 @@
+{
+    "type": "environmental:sawing",
+    "ingredient": {
+        "item": "tconstruct:bloodshroom_wood"
+    },
+    "result": "tconstruct:bloodshroom_planks",
+    "count": 4,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tconstruct"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "atmospheric:watchful_aspen_log"
+    },
+    "result": "atmospheric:watchful_aspen_wood",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ]
+}

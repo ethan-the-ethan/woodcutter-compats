@@ -1,0 +1,14 @@
+{
+    "type": "environmental:sawing",
+    "ingredient": {
+        "item": "byg:stripped_blue_enchanted_bark"
+    },
+    "result": "byg:blue_enchanted_door",
+    "count": 2,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

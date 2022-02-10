@@ -1,0 +1,14 @@
+{
+    "type": "environmental:sawing",
+    "ingredient": {
+        "item": "tconstruct:greenheart_log"
+    },
+    "result": "tconstruct:greenheart_planks_slab",
+    "count": 8,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tconstruct"
+        }
+    ]
+}
