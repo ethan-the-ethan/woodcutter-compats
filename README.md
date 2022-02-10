@@ -17,3 +17,7 @@ The recipes are consistent to the original mods, just expanded to encompass diff
 ### Downloads
 [View on Curseforge](https://www.curseforge.com/minecraft/mc-mods/woodcutter-compats) <br>
 [View on Modrinth](https://modrinth.com/mod/woodcutter-compats)
+
+### Planned Additions + Features
+- Biomes O' Plenty support
+- A config file where you can select which mod compats to enable
