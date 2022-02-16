@@ -1,0 +1,22 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "tconstruct:greenheart_wood"
+    },
+    "result": "tconstruct:stripped_greenheart_wood",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "charm"
+        },
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tconstruct"
+        }
+    ]
+}

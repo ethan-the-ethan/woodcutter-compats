@@ -1,0 +1,22 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "byg:palo_verde_wood"
+    },
+    "result": "byg:stripped_palo_verde_wood",
+    "count": 1,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "charm"
+        },
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

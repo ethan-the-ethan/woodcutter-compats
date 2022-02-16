@@ -1,0 +1,22 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "byg:fungal_imparius_hyphae"
+    },
+    "result": "byg:imparius_planks",
+    "count": 4,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "charm"
+        },
+        {
+            "type": "charm:module_enabled",
+            "module": "charm:woodcutters"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}
