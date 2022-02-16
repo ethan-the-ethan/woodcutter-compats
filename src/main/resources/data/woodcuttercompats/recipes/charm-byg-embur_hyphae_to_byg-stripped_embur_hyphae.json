@@ -3,7 +3,7 @@
     "ingredient": {
         "item": "byg:embur_hyphae"
     },
-    "result": "byg:stripped_embur_wood",
+    "result": "byg:stripped_embur_hyphae",
     "count": 1,
     "conditions": [
         {

@@ -3,7 +3,7 @@
     "ingredient": {
         "item": "byg:embur_pedu"
     },
-    "result": "byg:stripped_embur_log",
+    "result": "byg:stripped_embur_pedu",
     "count": 1,
     "conditions": [
         {

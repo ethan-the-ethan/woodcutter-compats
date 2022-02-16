@@ -1,9 +1,9 @@
 {
     "type": "environmental:sawing",
     "ingredient": {
-        "item": "byg:stripped_embur_log"
+        "item": "byg:stripped_embur_pedu"
     },
-    "result": "byg:embur_door",
+    "result": "minecraft:oak_sign",
     "count": 2,
     "conditions": [
         {

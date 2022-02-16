@@ -1,10 +1,10 @@
 {
     "type": "environmental:sawing",
     "ingredient": {
-        "item": "byg:stripped_embur_log"
+        "item": "byg:stripped_embur_hyphae"
     },
-    "result": "byg:embur_trapdoor",
-    "count": 1,
+    "result": "byg:embur_stairs",
+    "count": 4,
     "conditions": [
         {
             "type": "forge:mod_loaded",
